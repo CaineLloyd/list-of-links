@@ -1,0 +1,52 @@
+body {
+    background-color: white;
+}
+
+div {
+
+}
+
+.section {
+    background-color: white;
+    box-shadow: 0px 5px 5px 3px lightgrey;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+ul {
+    border-top: 1px solid lightgrey;
+    padding: 0px;
+}
+
+li {
+    border-bottom: 1px solid lightgrey;
+    list-style-type: none;
+    line-height: 200%;
+}
+
+/* unspecified link */
+a {
+    text-decoration: none;
+    /* text-shadow: 3px 2px grey; */
+}
+
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: darkblue;
+}
+
+/* selected link */
+a:active {
+    color: darkgreen;
+}
